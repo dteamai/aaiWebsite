@@ -15,7 +15,6 @@ li.nav-item {
     margin: auto;
     text-align: center;
 }
-
 .nav-btn {
     width: 30%;
     justify-content: space-around;
@@ -28,7 +27,6 @@ li.nav-item {
     letter-spacing: 1px;
     padding: 5px 20px;
 }
-
 /* canvas particle*/
 .banner {
     position: absolute;
@@ -58,10 +56,9 @@ li.nav-item {
     letter-spacing: .5px;
     word-spacing: 5px;
 }
-
 /* vision*/
 .main {
-    margin: 2.5rem 0px;
+    margin: 3rem 0px;
 }
 .main-title{
     color: #444343;
@@ -73,7 +70,31 @@ li.nav-item {
     font-size: 18px;
     text-align: center;
 }
+.box {
+    border-radius: 0px;
+    box-shadow: 0 15px 20px rgba(0,0,0,.15);
+    border-top: 5px #1b1a1aa1 solid;
+}
+.box-bottom{
+    background-color: white;
+    padding-left: 3rem;
+}
+.box-body{
+    padding: 3rem;
+}
+.box-title{
+    margin-bottom: 1.75rem;
+}
+.vision{
+    margin-bottom: 3rem;
+}
 
+.box-bottom small{
+    font-size: 80%;
+    font-weight: 800;
+    /* letter-spacing: 0.5px; */
+    font-size: 14px;
+}
 /* Media Queries*/
 @media (max-width: 575.98px) { 
     .banner h1 {
