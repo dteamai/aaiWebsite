@@ -1,0 +1,82 @@
+body{
+    color: #333333;
+}
+/* Nav bar*/
+header {
+    margin: .5rem 0px;
+}
+ul.navbar-nav {
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+}
+li.nav-item {
+    /* width: 15%; */
+    margin: auto;
+    text-align: center;
+}
+
+.nav-btn {
+    width: 30%;
+    justify-content: space-around;
+}
+.my-btn{
+    border-radius: 0px;
+    background-color: #000001;
+    color: #fff;
+    /* font-weight: 800; */
+    letter-spacing: 1px;
+    padding: 5px 20px;
+}
+
+/* canvas particle*/
+.banner {
+    position: absolute;
+    height: 375px;
+    display: flex;
+    top: 0;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+#particles-js {
+    /* position: relative; */
+    background-color: black;
+    height: 375px;
+}
+.banner h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-bottom: 18px;
+}
+.banner h3{
+    font-size: 1.25rem;
+    letter-spacing: .5px;
+    word-spacing: 5px;
+}
+
+/* vision*/
+.main {
+    margin: 2.5rem 0px;
+}
+.main-title{
+    color: #444343;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.main-subtitle{
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Media Queries*/
+@media (max-width: 575.98px) { 
+    .banner h1 {
+        margin-bottom: 18px;
+    }
+ }
