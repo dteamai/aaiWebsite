@@ -17,7 +17,7 @@
     //   browser: [ 'animation-duration', '-webkit-animation-duration'],
     // });
 
-     window.sr = ScrollReveal({delay :20});
+     window.sr = ScrollReveal();
      sr.reveal('#box1', { origin: 'bottom',distance: '100px',easing:'ease',duration: 1500,delay: 50,mobile: true});
      sr.reveal('#box2', { origin: 'bottom',distance: '100px',easing:'ease',duration: 2500,delay: 50,mobile: true});
      sr.reveal('#box3', { origin: 'bottom',distance: '100px',easing:'ease',duration: 3500,delay: 50,mobile: true});
@@ -29,3 +29,5 @@
 
     //  window.blog = ScrollReveal({reset:true,delay:20,opacity: 0,easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',mobile: true,useDelay: 'once',distance:'50px'})
     sr.reveal('.blog',{origin:'bottom',easing: 'ease',mobile: true,distance:'100px',duration: 1500})
+
+    sr.reveal('.our-team',{duration:2000,easing:'ease',delay:50},100);
